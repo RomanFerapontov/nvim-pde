@@ -47,6 +47,7 @@ require("lazy").setup({
         event = 'VimEnter',
         dependencies = {{'nvim-tree/nvim-web-devicons'}}
     },
+    { 'projekt0n/github-nvim-theme' },
 })
 
 

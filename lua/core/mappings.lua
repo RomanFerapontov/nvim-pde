@@ -1,7 +1,8 @@
 vim.g.mapleader = ' '
 
 --Note
-vim.keymap.set('n', '<leader>e', ':Neotree float toggle<CR>')
+vim.keymap.set('n', '<leader>e', ':Neotree focus toggle<CR>')
+-- vim.keymap.set('n', '<leader>e', ':Neotree show toggle<CR>')
 vim.keymap.set('n', '<leader>o', ':Neotree float git_status<CR>')
 
 -- Splits

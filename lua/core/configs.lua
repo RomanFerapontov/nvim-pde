@@ -4,7 +4,7 @@ vim.opt.swapfile = false
 
 vim.g.did_load_filetypes = 1
 vim.g.formatoptions = "qrn1"
-vim.opt.showmode = false
+vim.opt.showmode = true
 vim.opt.updatetime = 100
 vim.wo.signcolumn = "yes"
 vim.opt.scrolloff = 8
